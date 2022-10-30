@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e5944e4d57.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Tugas 3</title>
+  </head>
+  <body>
+    <div class="root">
+      <div class="container">
+        <h1 class="title">Todo List</h1>
+        <div class="header">
+          <input type="text" id="search" placeholder="Search" />
+        </div>
+        <div class="inputItem">
+          <input type="text" id="input" placeholder="add item" />
+          <button id="input-btn"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="content">
+          <div class="item">
+            <div class="text">
+              <p>Makan</p>
+            </div>
+            <div class="action">
+              <button id="btn"><i class="fa-solid fa-check"></i></button>
+              <button id="edit">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button id="delete"><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text">
+              <p>Sholat</p>
+            </div>
+            <div class="action">
+              <button class="btn"><i class="fa-solid fa-check"></i></button>
+              <button id="edit">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button id="delete"><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+          <div class="item done">
+            <div class="text">
+              <p>Boker</p>
+            </div>
+            <div class="action">
+              <button class="btn"><i class="fa-solid fa-check"></i></button>
+              <button id="edit">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button id="delete"><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

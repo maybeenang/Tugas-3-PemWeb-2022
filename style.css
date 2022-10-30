@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+.root {
+    background-color: #95D1CC;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #5584AC;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    padding-top: 3rem;
+    color: #F6F2D4;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+input {
+    outline: none;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#search {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+#search::placeholder {
+    font-size: 1.2rem;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+#input {
+    width: 75%;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 2.5px;
+}
+
+#input-btn {
+    width: 20%;
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 2.5px;
+    background-color: rgb(68, 219, 68);
+}
+
+.item {
+    /* color: #181f2c; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #22577E;
+    margin-top: 1rem;
+    border-radius: 3.5px;
+}
+
+.item button {
+    padding: .5rem;
+    border: 1px solid black;
+    border-radius: 2.5px;
+}
+
+.action #delete {
+    background-color: #ff4e4e;
+}
+
+.action #edit {
+    background-color: #f7d53f;
+}
+
+.done {
+    text-decoration: line-through;
+    background-color: #243d4e;
+}
+
+.done button {
+    display: none;
+}
+
+.done #delete {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 50%;
+    }
+}
