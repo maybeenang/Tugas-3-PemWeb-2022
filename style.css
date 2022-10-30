@@ -114,12 +114,21 @@ input {
 
 .action #edit {
     background-color: #f7d53f;
+    margin: 0 .5rem;
+}
+
+#edit i[id="edit"] {
+    margin: 0;
 }
 
 .done {
-    text-decoration: line-through;
     background-color: #243d4e;
 }
+
+.done p {
+    text-decoration: line-through;
+}
+
 
 .done button {
     display: none;
@@ -129,8 +138,22 @@ input {
     display: block;
 }
 
-@media screen and (min-width: 768px) {
+.empty {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+
+@media screen and (min-width: 700px) {
     .container {
-        width: 50%;
+        width: 40%;
+        height: 90vh;
+        border-radius: 5px;
+        padding: 2rem;
     }
 }
