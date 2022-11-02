@@ -138,6 +138,10 @@ input {
     display: block;
 }
 
+button {
+    cursor: pointer;
+}
+
 .empty {
     width: 100%;
     display: flex;
